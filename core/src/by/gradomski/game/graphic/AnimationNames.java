@@ -1,0 +1,80 @@
+package by.gradomski.game.graphic;
+
+public class AnimationNames {
+    public static final String WHITE_WAVE = "white_wave";
+    public static final String WHITE_WAVE_XML_PATH = "animations/white_wave/white_wave.xml";
+    public static final String TROPIC_PALM = "d_tropic_palm_01_0";
+    public static final String TROPIC_PALM_XML_PATH = "animations/d_tropic_palm_01_0/d_tropic_palm_01_0.xml";
+    public static final String TROPIC_PALM_SHADOW = "d_tropic_palm_01_0_s";
+    public static final String TROPIC_PALM_SHADOW_XML_PATH = "animations/d_tropic_palm_01_s/d_tropic_palm_01_s.xml";
+    public static final String TROPIC_PALM_STUMP = "d_tropic_palm_01_stump";
+    public static final String TROPIC_PALM_STUMP_XML_PATH = "animations/d_tropic_palm_01_stump/d_tropic_palm_01_stump.xml";
+
+    public static final String PALM_01 = "t_palm_01_0";
+    public static final String PALM_01_XML_PATH = "animations/t_palm_01_0/t_palm_01_0.xml";
+
+    // no shadow and stump assets for t_palm_01_0. Use another assets
+    public static final String PALM_01_SHADOW = "d_tropic_palm_01_s";
+    public static final String PALM_01_SHADOW_XML_PATH = "animations/d_tropic_palm_01_s/d_tropic_palm_01_s.xml";
+    public static final String PALM_01_STUMP = "t_oak3_stump";
+    public static final String PALM_01_STUMP_XML_PATH = "animations/t_oak3_stump/t_oak3_stump.xml";
+    public static final String CLOTH_STAND = "anim_woodcutter_cloth_stand";
+    public static final String CLOTH_STAND_XML_PATH = "animations/anim_woodcutter_cloth_stand/anim_woodcutter_cloth_stand.xml";
+    public static final String CLOTH_WALK_DOWN = "anim_woodcutter_cloth_walk_down";
+    public static final String CLOTH_WALK_DOWN_XML_PATH = "animations/anim_woodcutter_cloth_walk_down/anim_woodcutter_cloth_walk_down.xml";
+    public static final String CLOTH_WALKWOOD_DOWN = "anim_woodcutter_cloth_walkwood_down";
+    public static final String CLOTH_WALKWOOD_DOWN_XML_PATH = "animations/anim_woodcutter_cloth_walkwood_down/anim_woodcutter_cloth_walkwood_down.xml";
+    public static final String CLOTH_WALK_UP = "anim_woodcutter_cloth_walk_up";
+    public static final String CLOTH_WALK_UP_XML_PATH = "animations/anim_woodcutter_cloth_walk_up/anim_woodcutter_cloth_walk_up.xml";
+    public static final String CLOTH_WALKWOOD_UP = "anim_woodcutter_cloth_walkwood_up";
+    public static final String CLOTH_WALKWOOD_UP_XML_PATH = "animations/anim_woodcutter_cloth_walkwood_up/anim_woodcutter_cloth_walkwood_up.xml";
+    public static final String CLOTH_WOODCUT = "anim_woodcutter_cloth_woodcut";
+    public static final String CLOTH_WOODCUT_XML_PATH = "animations/anim_woodcutter_cloth_woodcut/anim_woodcutter_cloth_woodcut.xml";
+    public static final String HAT_STAND = "anim_woodcutter_hat_stand";
+    public static final String HAT_STAND_XML_PATH = "animations/anim_woodcutter_hat_stand/anim_woodcutter_hat_stand.xml";
+    public static final String HAT_WALK_DOWN = "anim_woodcutter_hat_walk_down";
+    public static final String HAT_WALK_DOWN_XML_PATH = "animations/anim_woodcutter_hat_walk_down/anim_woodcutter_hat_walk_down.xml";
+    public static final String HAT_WALKWOOD_DOWN = "anim_woodcutter_hat_walkwood_down";
+    public static final String HAT_WALKWOOD_DOWN_XML_PATH = "animations/anim_woodcutter_hat_walkwood_down/anim_woodcutter_hat_walkwood_down.xml";
+    public static final String HAT_WALK_UP = "anim_woodcutter_hat_walk_up";
+    public static final String HAT_WALK_UP_XML_PATH = "animations/anim_woodcutter_hat_walk_up/anim_woodcutter_hat_walk_up.xml";
+    public static final String HAT_WALKWOOD_UP = "anim_woodcutter_hat_walkwood_up";
+    public static final String HAT_WALKWOOD_UP_XML_PATH = "animations/anim_woodcutter_hat_walkwood_up/anim_woodcutter_hat_walkwood_up.xml";
+    public static final String HAT_WOODCUT = "anim_woodcutter_hat_woodcut";
+    public static final String HAT_WOODCUT_XML_PATH = "animations/anim_woodcutter_hat_woodcut/anim_woodcutter_hat_woodcut.xml";
+    public static final String D_CLOTH_STAND = "anim_woodcutter_double_cloth_stand";
+    public static final String D_CLOTH_STAND_XML_PATH = "animations/anim_woodcutter_double_cloth_stand/anim_woodcutter_double_cloth_stand.xml";
+    public static final String D_CLOTH_WALK_DOWN = "anim_woodcutter_double_cloth_walk_down";
+    public static final String D_CLOTH_WALK_DOWN_XML_PATH = "animations/anim_woodcutter_double_cloth_walk_down/anim_woodcutter_double_cloth_walk_down.xml";
+    public static final String D_CLOTH_WALKWOOD_DOWN = "anim_woodcutter_double_cloth_walkwood_down";
+    public static final String D_CLOTH_WALKWOOD_DOWN_XML_PATH = "animations/anim_woodcutter_double_cloth_walkwood_down/anim_woodcutter_double_cloth_walkwood_down.xml";
+    public static final String D_CLOTH_WALK_UP = "anim_woodcutter_double_cloth_walk_up";
+    public static final String D_CLOTH_WALK_UP_XML_PATH = "animations/anim_woodcutter_double_cloth_walk_up/anim_woodcutter_double_cloth_walk_up.xml";
+    public static final String D_CLOTH_WALKWOOD_UP = "anim_woodcutter_double_cloth_walkwood_up";
+    public static final String D_CLOTH_WALKWOOD_UP_XML_PATH = "animations/anim_woodcutter_double_cloth_walkwood_up/anim_woodcutter_double_cloth_walkwood_up.xml";
+    public static final String D_CLOTH_WOODCUT = "anim_woodcutter_double_cloth_woodcut";
+    public static final String D_CLOTH_WOODCUT_XML_PATH = "animations/anim_woodcutter_double_cloth_woodcut/anim_woodcutter_double_cloth_woodcut.xml";
+    public static final String D_HAT_STAND = "anim_woodcutter_double_hat_stand";
+    public static final String D_HAT_STAND_XML_PATH = "animations/anim_woodcutter_double_hat_stand/anim_woodcutter_double_hat_stand.xml";
+    public static final String D_HAT_WALK_DOWN = "anim_woodcutter_double_hat_walk_down";
+    public static final String D_HAT_WALK_DOWN_XML_PATH = "animations/anim_woodcutter_double_hat_walk_down/anim_woodcutter_double_hat_walk_down.xml";
+    public static final String D_HAT_WALKWOOD_DOWN = "anim_woodcutter_double_hat_walkwood_down";
+    public static final String D_HAT_WALKWOOD_DOWN_XML_PATH = "animations/anim_woodcutter_double_hat_walkwood_down/anim_woodcutter_double_hat_walkwood_down.xml";
+    public static final String D_HAT_WALK_UP = "anim_woodcutter_double_hat_walk_up";
+    public static final String D_HAT_WALK_UP_XML_PATH = "animations/anim_woodcutter_double_hat_walk_up/anim_woodcutter_double_hat_walk_up.xml";
+    public static final String D_HAT_WALKWOOD_UP = "anim_woodcutter_double_hat_walkwood_up";
+    public static final String D_HAT_WALKWOOD_UP_XML_PATH = "animations/anim_woodcutter_double_hat_walkwood_up/anim_woodcutter_double_hat_walkwood_up.xml";
+    public static final String D_HAT_WOODCUT = "anim_woodcutter_double_hat_woodcut";
+    public static final String D_HAT_WOODCUT_XML_PATH = "animations/anim_woodcutter_double_hat_woodcut/anim_woodcutter_double_hat_woodcut.xml";
+    public static final String WAKE_UP = "anim_woodcutter_wakeup";
+    public static final String WAKE_UP_XML_PATH = "animations/anim_woodcutter_wakeup/anim_woodcutter_wakeup.xml";
+    public static final String STAND = "anim_woodcutter_stand";
+    public static final String STAND_XML_PATH = "animations/anim_woodcutter_stand/anim_woodcutter_stand.xml";
+    public static final String WALK_DOWN = "anim_woodcutter_walk_down";
+    public static final String WALK_DOWN_XML_PATH = "animations/anim_woodcutter_walk_down/anim_woodcutter_walk_down.xml";
+    public static final String WALK_UP = "anim_woodcutter_walk_up";
+    public static final String WALK_UP_XML_PATH = "animations/anim_woodcutter_walk_up/anim_woodcutter_walk_up.xml";
+    public static final String WOODCUT = "anim_woodcutter_woodcut";
+    public static final String WOODCUT_XML_PATH = "animations/anim_woodcutter_woodcut/anim_woodcutter_woodcut.xml";
+
+}
